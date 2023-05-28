@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
                   context,
                   MaterialPageRoute(builder: (context) => const Homepage()),
                 );
-        }else if(value == 0){
+        }else if(value == 1){
           Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const Account()),
